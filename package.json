@@ -1,0 +1,37 @@
+{
+  "name": "@matter-in-motion/validators.jsonschema",
+  "version": "1.0.0",
+  "description": "Matter in Motion Extension. JSON Schema validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matter-in-motion/validators.jsonschema.git"
+  },
+  "keywords": [
+    "matter-in-motion",
+    "mmextension",
+    "ajv",
+    "jsonschema",
+    "validator",
+    "extension"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matter-in-motion/validators.jsonschema/issues"
+  },
+  "homepage": "https://github.com/matter-in-motion/validators.jsonschema#readme",
+  "devDependencies": {
+    "@matter-in-motion/app": "^1.0.0",
+    "ava": "^2.4.0",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "ajv-keywords": "^3.4.1",
+    "ajv-merge-patch": "^4.1.0"
+  }
+}
