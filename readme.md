@@ -7,7 +7,7 @@
 
 ## JSON Schema
 
-(JSON Schema)[(http://json-schema.org)] validator extension for [matter in motion](https://github.com/matter-in-motion/mm) framework. Add [Ajv](https://github.com/epoberezkin/ajv) as `validators.jsonschema` with two plugins [ajv-merge-patch](https://github.com/epoberezkin/ajv-merge-patch) and [ajv-keywords](https://github.com/epoberezkin/ajv-keywords)
+(JSON Schema)[(http://json-schema.org)] validator extension for [matter in motion](https://github.com/matter-in-motion/mm) framework. Adds [Ajv](https://github.com/epoberezkin/ajv) as `validators.jsonschema` with two plugins [ajv-merge-patch](https://github.com/epoberezkin/ajv-merge-patch) and [ajv-keywords](https://github.com/epoberezkin/ajv-keywords)
 
 ### Installation
 
